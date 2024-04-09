@@ -508,13 +508,13 @@ footer {
 }
 
 @media screen and (min-width: 850px) {
-    .rectangle {
+    /* .rectangle {
         position: fixed;
         top: 0;
         height: 20px;
         width: 100%;
         background-color: black;
-    }
+    } */
 
     .cards-grid {
         display: grid;
@@ -556,8 +556,8 @@ footer {
     }
 }
 
-@media (prefers-reduced-motion) {
+/* @media (prefers-reduced-motion) {
     #logo {
         animation: none;
     }
-}
+} */
