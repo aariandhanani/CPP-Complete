@@ -1,0 +1,413 @@
+html{
+    scroll-behavior: smooth;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 400px 400px;
+}
+
+li {
+    list-style-type: none;
+}
+
+.content-header {
+    background: rgb(255,255,255);
+    background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(0,102,255,1) 50%, rgba(255,255,255,1) 100%);
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    text-align: center;
+    margin: auto;
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
+
+.content-header-r {
+    background: rgb(255,255,255);
+    background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(255,0,0,1) 50%, rgba(255,255,255,1) 100%);
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    text-align: center;
+    margin: auto;
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
+
+.content-header-p {
+    background: rgb(255,255,255);
+    background: linear-gradient(145deg, rgba(255,255,255,1) 0%, rgba(124,255,122,1) 50%, rgba(255,255,255,1) 100%);
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    text-align: center;
+    margin: auto;
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
+
+.content-header-i {
+    justify-content: center;
+    align-items: center;
+    /* height: 100px; */
+    text-align: center;
+    margin: auto;
+    padding: 20px;
+    h1 {
+        font-size: 30px;
+    }
+    p {
+        font-size: 20px;
+    }
+}
+
+.index-class {
+    background: rgb(255,255,255);
+    background: linear-gradient(157deg, rgba(255,255,255,1) 0%, rgba(163,247,255,1) 30%, rgba(255,255,255,1) 58%, rgba(206,255,217,1) 69%);
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* width: 100%;
+    height: 100%; */
+    min-height: 100%;
+}
+
+.title{
+    width: auto;
+    /* text-align: center; */
+
+    h1 {
+        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        /* text-align: center; */
+    }
+}
+
+.subheading {
+    width: auto;
+
+    p {
+        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        /* text-align: center; */
+    }
+}
+
+.card {
+    /* padding-top: 20px; */
+
+    background: rgb(255,255,255);
+    background: linear-gradient(164deg, rgba(255,255,255,1) 0%, rgba(146,197,255,1) 100%);
+
+    border: 5px solid navy;
+    justify-items: center;
+    width: 100%;
+
+    h2 {
+        text-decoration: underline;
+        text-align: center;
+    }
+    
+    h3 {
+        text-align: center;
+    }
+
+    .grid {
+        grid-template-columns: 5% 40% 10% 40% 5%;
+        justify-self: center;
+
+        h3 {
+            text-align: center;
+        }
+    }
+
+    .images {
+        display: grid;
+        grid-template-columns: auto auto;
+        column-gap: 5%;
+        img {
+            width: 100%;
+        }
+        video {
+            width: 100%;
+        }
+        padding: 20px;
+    }
+}
+
+.card-recipes {
+    /* padding-top: 20px; */
+
+    background: rgb(255,255,255);
+    background: linear-gradient(145deg, rgba(255,255,255,1) 0%, rgba(255,0,0,1) 100%);
+
+    border: 5px solid maroon;
+    justify-items: center;
+    width: 100%;
+    h2 {
+        text-decoration: underline;
+        text-align: center;
+    }
+    
+    h3 {
+        text-align: center;
+    }
+
+    p {
+        text-align: center;
+    }
+
+    .grid {
+        grid-template-columns: 5% 40% 10% 40% 5%;
+        justify-self: center;
+
+        h3 {
+            text-align: center;
+        }
+    }
+
+    .images {
+        display: grid;
+        grid-template-columns: auto auto;
+        column-gap: 5%;
+        img {
+            width: 100%;
+        }
+        video {
+            width: 100%;
+        }
+        padding: 20px;
+    }
+}
+
+.card-pets {
+    /* padding-top: 20px; */
+
+    background: rgb(255,255,255);
+    background: linear-gradient(145deg, rgba(255,255,255,1) 0%, rgba(3,255,0,1) 100%);
+
+    border: 5px solid forestgreen;
+    justify-items: center;
+    width: 100%;
+    h2 {
+        text-decoration: underline;
+        text-align: center;
+    }
+    
+    h3 {
+        text-align: center;
+    }
+
+    p {
+        padding-left: 20px;
+        padding-right: 20px;
+        text-align: center;
+    }
+
+    .grid {
+        grid-template-columns: 5% 40% 10% 40% 5%;
+        justify-self: center;
+
+        h3 {
+            text-align: center;
+        }
+    }
+
+    .images {
+        display: grid;
+        grid-template-columns: auto auto;
+        column-gap: 5%;
+        img {
+            width: 100%;
+        }
+        video {
+            width: 100%;
+        }
+        padding: 20px;
+    }
+}
+
+.card-index {
+    /* padding-top: 20px; */
+
+    background: rgb(163,181,255);
+    background: linear-gradient(157deg, rgba(163,181,255,1) 30%, rgba(211,206,255,1) 69%);
+
+    border: 5px solid black;
+    justify-items: center;
+    width: 100%;
+    h2 {
+        text-decoration: underline;
+        text-align: center;
+    }
+    
+    h3 {
+        text-align: center;
+    }
+
+    p {
+        padding-left: 20px;
+        padding-right: 20px;
+        text-align: center;
+    }
+
+    .grid {
+        grid-template-columns: 5% 40% 10% 40% 5%;
+        justify-self: center;
+
+        h3 {
+            text-align: center;
+        }
+    }
+}
+
+.cards-grid {
+    padding-top: 20px;
+    display: grid;
+    grid-template-columns: 25% 25% 25%;
+    column-gap: 5%;
+    width: auto;
+    justify-content: center;
+}
+
+.current-page {
+    font-weight: bold;
+    color: red;
+    text-decoration: underline;
+}
+
+.other-page {
+    color: black;
+    text-decoration: none;
+}
+
+.other-page:hover {
+    color: red;
+}
+
+.other-page:focus {
+    color: red;
+}
+
+.skip a {
+    position: absolute;
+    top: -40px;
+}
+
+.skip a:focus {
+    position: absolute;
+    top: 20px;
+}
+
+.skip a{
+    background: white;
+    left: 0;
+    padding: 6px;
+    -webkit-transition: top 1s ease-out;
+    transition: top 1s ease-out;
+    z-index: 1;
+}
+
+.nav-style {
+    font-family: Arial, Helvetica, sans-serif;
+    /* display: grid; */
+    /* justify-content: center; */
+    /* min-height: 100px; */
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+
+    padding: 20px;
+    font-size: 25px;
+    /* grid-template-columns: auto auto auto auto; */
+    /* justify-content: space-evenly; */
+    border: 5px solid navy;
+    background-color: white;
+}
+
+footer {
+    text-align: center;
+    padding: 40px;
+    /* min-height: 100px; */
+    font-size: 20px;
+    font-weight: bold;
+    width: auto;
+    background: rgb(255,255,255);
+    background: linear-gradient(157deg, rgba(255,255,255,1) 0%, rgba(163,247,255,1) 30%, rgba(255,255,255,1) 58%, rgba(206,255,217,1) 69%);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+@media screen and (max-width: 800px) {
+    .cards-grid {
+        display: grid;
+        grid-template-columns: 40% 40%;
+    }
+
+    .skip a {
+        font-size: 30px;
+    }
+
+    .cards-grid {
+        row-gap: 10px;
+    }
+
+    h2 {
+        font-size: 18px;
+    }
+
+    h3 {
+        font-size: 16px;
+    }
+
+    p {
+        font-size: 14px;
+    }
+
+    .card-pets {
+        .images {
+            grid-template-columns: auto;
+        }
+    }
+
+    .card-recipes {
+        .images {
+            grid-template-columns: auto;
+        }
+    }
+
+    .card {
+        .images {
+            grid-template-columns: auto;
+        }
+    }
+
+    footer {
+        p {
+            font-size: 20px;
+        }
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .cards-grid {
+        display: grid;
+        grid-template-columns: 80%;
+    }
+
+    .card-pets {
+        padding-top: 20px;
+    }
+
+    .card-recipes {
+        padding-top: 20px;
+    }
+
+    .card {
+        padding-top: 20px;
+    }
+
+    .cards-grid {
+        padding-top: 0px;
+    }
+}
